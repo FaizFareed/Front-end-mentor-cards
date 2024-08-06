@@ -2,6 +2,7 @@
   flex: none;
   flex-direction: column;
   width: 350px;
+  max-height: initial;
 }
 
 img {
