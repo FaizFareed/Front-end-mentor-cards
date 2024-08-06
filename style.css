@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.space {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+.main .container {
+  max-width: 700px;
+  /* margin: auto; */
+  overflow: hidden;
+  background: #fff;
+  margin: auto;
+  margin: 70px auto;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  min-height: 100%;
+  max-width: 350px;
+}
+
+.main .container .contant h1 {
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: rgb(28, 35, 43);
+}
+
+.main .container .contant h3 {
+  padding-bottom: 20px;
+  color: #6c7289;
+}
+
+.main .container .contant p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.4rem;
+  margin-bottom: 20px;
+  color: #6c7289;
+}
+
+.main .container .contant {
+  padding: 25px;
+  padding-right: 25px;
+}
+
+.main .container .price {
+  display: flex;
+  gap: 20px;
+}
+
+.main .container .price h2 {
+  font-size: 35px;
+  font-family: "Platypi", serif;
+  color: #3c8067;
+}
+
+.main .container .price p {
+  text-decoration: line-through;
+  margin-top: 15px;
+  color: #6c7289;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  background: #3c8067;
+  cursor: pointer;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  transition: all 0.8s;
+}
+.btn:hover {
+  background: #1a4031;
+}
+.btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* mobile
+@media (max-width: 375px) {
+  .main .container {
+    flex: none;
+    flex-direction: column;
+  }
+} */

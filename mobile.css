@@ -1,0 +1,10 @@
+.main .container {
+  flex: none;
+  flex-direction: column;
+  width: 350px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
